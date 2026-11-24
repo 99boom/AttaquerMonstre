@@ -15,6 +15,21 @@ class Program
 {
     static void Main(string[] args)
     {
-        
+
+
+        Attaquer("Dragon");
+        Attaquer("Gobelin");
+        Attaquer("Zombie");
+
+
     }
+
+    static void Attaquer(string monstre)
+    {
+
+        Console.WriteLine("Vous attaquez un "+ monstre +" !");
+
+    }
+
+
 }
